@@ -15,6 +15,7 @@
 {
     background: springgreen;
     grid-area: a;
+    animation: example 2s infinite;    
 }
 
 .left
@@ -34,3 +35,9 @@
     background: indigo;
     grid-area: d;
 }
+
+@keyframes example {
+    0%   {background-color: springgreen;}
+  50%  {background-color: yellow;}
+  100%  {background-color: springgreen;}
+  }
